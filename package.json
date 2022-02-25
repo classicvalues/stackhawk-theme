@@ -1,0 +1,7 @@
+{
+  "author": "Keegan George",
+  "license": "UNLICENSED",
+  "devDependencies": {
+    "eslint-config-discourse": "latest"
+  }
+}
