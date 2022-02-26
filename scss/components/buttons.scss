@@ -1,1 +1,46 @@
-//
+// Buttons
+.btn {
+  border-radius: $radius-base;
+  background: var(--gray-150);
+  color: var(--gray-800);
+}
+
+// Button Hovered
+.discourse-no-touch .btn:hover,
+.discourse-no-touch .btn.btn-hover {
+  background: var(--gray-150);
+  color: var(--gray-800);
+  opacity: 0.8;
+
+  .d-icon {
+    color: var(--gray-800);
+  }
+}
+
+// Disabled Buttons
+.btn[disabled]:not(.is-loading),
+.btn.disabled:not(.is-loading) {
+  opacity: 0.4;
+}
+
+// Primary Buttons
+.btn-primary {
+  color: var(--gray-800);
+  background: var(--teal-400);
+
+  .d-icon {
+    color: var(--gray-800);
+  }
+}
+
+// Primary Buttons Hovered
+.discourse-no-touch .btn-primary:hover,
+.discourse-no-touch .btn-primary.btn-hover {
+  opacity: 0.8;
+  background: var(--teal-400);
+  color: var(--gray-800);
+
+  .d-icon {
+    color: var(--gray-800);
+  }
+}
