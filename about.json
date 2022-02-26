@@ -7,6 +7,18 @@
   "assets": {
   },
   "color_schemes": {
+    "StackHawk": {
+      "primary": "3C4149",
+      "secondary": "ffffff",
+      "tertiary": "00C4BE",
+      "quaternary": "00CBC6",
+      "header_background": "ffffff",
+      "header_primary": "191927",
+      "highlight": "00CBC6",
+      "danger": "FF5090",
+      "success": "3D5AFE",
+      "love": "FF5090"
+    }
   },
   "components": [
     
