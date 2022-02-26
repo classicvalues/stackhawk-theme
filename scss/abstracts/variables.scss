@@ -1,1 +1,30 @@
-//
+// Font Family
+$font-family-sans-serif: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI',
+  Roboto, Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', Arial, 'Noto Sans',
+  sans-serif !default;
+
+$font-family-monospace: -SFMono-Regular, Menlo, Monaco, Consolas,
+  'Liberation Mono', 'Courier New', monospace !default;
+
+// Font Weight
+$font-weight-lighter: lighter !default;
+$font-weight-light: 300 !default;
+$font-weight-normal: 400 !default;
+$font-weight-bold: 600 !default;
+$font-weight-bolder: bolder !default;
+$font-weight-extra-bold: 800 !default;
+$font-weight-base: $font-weight-normal !default;
+
+// Font Size
+$font-size-h1: 48px !default;
+$font-size-h2: 32px !default;
+$font-size-h3: 28px !default;
+$font-size-h4: 24px !default;
+$font-size-h5: 20px !default;
+$font-size-h6: 16px !default;
+$font-size-p: 16px !default;
+
+$radius-small: 0.13rem !default;
+$radius-base: 0.25rem !default;
+
+$border-width-base: 2px !default;
