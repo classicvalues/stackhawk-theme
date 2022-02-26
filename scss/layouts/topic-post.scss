@@ -1,0 +1,16 @@
+a.mention {
+  background: var(--indigo-500);
+  border-radius: $radius-small;
+  color: var(--sh-white);
+  font-weight: $font-weight-bold;
+}
+
+kbd {
+  background: var(--teal-100);
+  border-radius: $radius-base;
+  border: none;
+  color: var(--gray-500);
+  font-family: $font-family-monospace;
+  font-weight: $font-weight-normal;
+  padding: 0.5em 1rem;
+}

@@ -10,9 +10,11 @@
 
 // Components
 @import 'components/buttons';
+@import 'components/badges';
 @import 'components/header';
 
 // Layouts
+@import 'layouts/topic-post';
 @import 'layouts/welcome-banner';
 @import 'layouts/category-boxes';
 
