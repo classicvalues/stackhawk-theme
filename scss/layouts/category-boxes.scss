@@ -1,0 +1,30 @@
+.category-boxes {
+  .category-box {
+    border: $border-width-base solid var(--gray-200) !important;
+    border-radius: $radius-base;
+    transition: box-shadow 0.25s ease-in-out;
+
+    .category-box-inner {
+      padding: 1.5rem;
+      border: none;
+
+      .category-logo,
+      .category-details {
+        align-self: flex-start;
+      }
+
+      .category-details h3,
+      .category-details .description {
+        text-align: left;
+      }
+
+      .category-details .description {
+        margin-top: 0.5rem;
+      }
+    }
+
+    &:hover {
+      box-shadow: 8px 8px 16px rgba(60, 65, 73, 0.2);
+    }
+  }
+}
