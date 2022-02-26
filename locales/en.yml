@@ -1,3 +1,6 @@
 en:
   theme_metadata:
-    description: "The main theme for the StackHawk Community"
+    description: 'The main theme for the StackHawk Community'
+  welcome_banner:
+    title: 'Welcome to the StackHawk Community'
+    subtitle: 'Ask questions, share feedback and connect with our community'

@@ -1,0 +1,30 @@
+.welcome-banner {
+  background: var(--gray-900);
+  padding: 1.5rem;
+  color: var(--sh-white);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  &-title-highlight {
+    color: var(--teal-400);
+  }
+
+  &-content {
+    margin-right: 1.5rem;
+
+    h1 {
+      font-size: 2.6875em;
+    }
+
+    p {
+      font-size: var(--font-up-3);
+    }
+  }
+
+  &-image {
+    img {
+      width: 280px;
+    }
+  }
+}

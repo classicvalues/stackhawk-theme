@@ -1,0 +1,11 @@
+{{#if canDisplay}}
+  <div class="welcome-banner">
+    <div class="welcome-banner-content">
+    <h1>{{bannerTitleStart}} <span class="welcome-banner-title-highlight">{{bannerTitleEnd}}</span></h1>
+    <p>{{theme-i18n "welcome_banner.subtitle"}}</p>
+    </div>
+    <div class="welcome-banner-image">
+      <img src={{theme-setting "theme_uploads.welcome_banner_artifact"}} alt="welcome-banner-artifact">
+    </div>
+  </div>
+{{/if}}

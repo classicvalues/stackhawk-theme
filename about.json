@@ -5,6 +5,7 @@
   "about_url": null,
   "license_url": null,
   "assets": {
+    "welcome_banner_artifact": "assets/welcome-banner-artifact.svg"
   },
   "color_schemes": {
     "StackHawk": {
