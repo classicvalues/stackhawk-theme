@@ -1,0 +1,22 @@
+.select-kit.is-expanded .select-kit-body {
+  box-shadow: 4px 4px 19px rgba(0, 0, 0, 0.25);
+  padding: 0.5rem;
+}
+
+.select-kit .select-kit-filter.is-expanded {
+  padding: 0 !important;
+  margin-bottom: 1rem;
+  .filter-input {
+    padding: 0.5em 0.5em;
+    border: 2px solid var(--gray-200);
+    border-radius: $radius-base;
+    &:focus {
+      border-color: var(--teal-400);
+    }
+  }
+}
+
+.select-kit.multi-select .select-kit-filter + .selected-content,
+.select-kit.multi-select .select-kit-filter + .select-kit-collection {
+  border-top: none;
+}
