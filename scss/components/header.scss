@@ -1,10 +1,23 @@
 .d-header {
   box-shadow: none;
   border-bottom: 2px solid #eff1f4;
-}
 
-.d-header .wrap {
-  max-width: none;
+  .wrap {
+    max-width: none;
+  }
+
+  .header-buttons {
+    order: 2;
+
+    .sign-up-button {
+      display: none;
+    }
+
+    .login-button {
+      font-size: var(--font-up-1);
+      border-radius: $radius-base;
+    }
+  }
 }
 
 .d-header-icons {
