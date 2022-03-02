@@ -23,6 +23,6 @@
     }
   },
   "components": [
-    
+    "https://github.com/discourse/Discourse-easy-footer"
   ]
 }

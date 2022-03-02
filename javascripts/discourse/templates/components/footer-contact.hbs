@@ -1,0 +1,19 @@
+{{#if canDisplay}}
+  <a href="mailto:hello@stackhawk.com">hello@stackhawk.com</a>
+
+  <div class="sh-footer-contact-info">
+    <ul>
+      <li><h4>StackHawk Inc.</h4></li>
+      <li>1624 Market St, Ste 226</li>
+      <li>Denver, CO 80202</li>
+      <li><a href="tel:+1888-555-1212">1.888.555.1212</a></li>
+    </ul>
+  </div>
+
+  <div class="social">
+    <h4>Follow</h4>
+    {{#each socialLinks as |link|}}
+      <a class="social-link {{link.className}}" title={{link.title}} target={{link.target}} href={{link.href}}>{{d-icon link.icon}}</a>
+    {{/each}}
+  </div>
+{{/if}}

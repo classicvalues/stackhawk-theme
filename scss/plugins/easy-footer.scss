@@ -1,0 +1,97 @@
+.custom-footer .wrap {
+  display: none;
+}
+
+.custom-footer {
+  background: var(--header_background);
+
+  .footer-section-link-wrapper a {
+    color: var(--gray-550);
+    transition: color 0.25s ease;
+    &:hover {
+      color: var(--gray-300);
+    }
+  }
+}
+
+.stackhawk-footer {
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  margin: 0 4rem;
+  background: var(--header_background);
+  border-top: 1px solid var(--gray-200);
+  margin-bottom: 3rem;
+
+  .footer-container {
+    color: var(--gray-550);
+
+    .flexbox {
+      padding: 0;
+    }
+
+    .heading svg {
+      transform: translateX(-4rem);
+    }
+
+    .list span {
+      color: var(--gray-600);
+      text-transform: uppercase;
+      font-size: var(--font-down-1);
+      font-weight: 600;
+    }
+
+    .second-box .links {
+      justify-content: center;
+      padding: 3rem;
+      gap: 4rem;
+    }
+
+    .third-box,
+    .small-link {
+      color: var(--gray-550);
+    }
+
+    .third-box {
+      padding-top: 1rem;
+      border-top: 1px solid var(--gray-200);
+    }
+  }
+}
+
+.list .footer-section-link-wrapper {
+  color: var(--gray-550);
+
+  .sh-footer-contact-info {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    li a {
+      display: block;
+      margin-top: 2rem;
+    }
+  }
+
+  .social-link {
+    .d-icon {
+      color: #191927;
+      opacity: 1;
+      transition: opacity 0.25s ease;
+
+      &:hover {
+        opacity: 0.7;
+      }
+    }
+  }
+}
+
+.footer-section-link[title='Jobs'] {
+  &::after {
+    content: "We're Hiring";
+    background: var(--teal-200);
+    color: var(--teal-400);
+    padding: 0.5em;
+    font-size: var(--font-down-2);
+    border-radius: $radius-base;
+    margin-left: 0.5em;
+  }
+}
