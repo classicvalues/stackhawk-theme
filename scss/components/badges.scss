@@ -1,5 +1,11 @@
-.badge-notification.clicks {
+.badge-notification.clicks,
+.topic-list .badge-notification {
   background: var(--teal-100);
   color: var(--gray-500);
   border-radius: $radius-small;
+}
+
+.badge-wrapper.bullet .badge-category-parent-bg,
+.badge-wrapper.bullet .badge-category-bg {
+  display: none;
 }

@@ -1,11 +1,14 @@
 .navigation-container {
-  border-bottom: $border-width-base solid var(--gray-200);
   padding-bottom: 1rem;
   margin-bottom: 1rem;
 
   .category-breadcrumb {
     flex: 0 0 100%;
   }
+}
+
+.categories-list .navigation-container {
+  border-bottom: $border-width-base solid var(--gray-200);
 }
 
 // Category Breadcrumb inputs

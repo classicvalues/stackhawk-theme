@@ -1,0 +1,18 @@
+#list-area .show-more.has-topics .alert {
+  background: var(--teal-100);
+  border: $border-width-base solid var(--teal-300);
+  border-radius: $radius-small;
+  color: var(--gray-600);
+  font-weight: $font-weight-bold;
+  font-style: italic;
+
+  &::before {
+    content: '🎉';
+    margin-right: 1rem;
+  }
+}
+
+.show-more.has-topics {
+  position: relative;
+  margin-bottom: 2rem;
+}

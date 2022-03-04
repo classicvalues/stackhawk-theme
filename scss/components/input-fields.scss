@@ -42,7 +42,7 @@ input[type='checkbox'] {
   color: var(--gray-200);
   width: 1.15em;
   height: 1.15em;
-  border: 0.15em solid var(--gray-200);
+  border: $border-width-base solid var(--gray-200);
   border-radius: $radius-small;
   display: grid;
   place-content: center;

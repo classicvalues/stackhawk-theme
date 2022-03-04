@@ -15,11 +15,14 @@
 @import 'components/navigation';
 @import 'components/input-fields';
 @import 'components/dropdowns';
+@import 'components/tagging';
+@import 'components/alert';
 
 // Layouts
-@import 'layouts/topic-post';
 @import 'layouts/welcome-banner';
 @import 'layouts/category-boxes';
+@import 'layouts/topic-post';
+@import 'layouts/topic-list';
 
 // Pages
 

@@ -8,7 +8,7 @@
   margin-bottom: 1rem;
   .filter-input {
     padding: 0.5em 0.5em;
-    border: 2px solid var(--gray-200);
+    border: $border-width-base solid var(--gray-200);
     border-radius: $radius-base;
     &:focus {
       border-color: var(--teal-400);

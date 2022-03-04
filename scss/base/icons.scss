@@ -5,3 +5,13 @@
 .admin-container .control-unit .d-icon-link {
   transform: scale(0.7);
 }
+
+.topic-statuses .topic-status .d-icon {
+  transform: scale(0.6) translateY(-0.5rem);
+  margin-right: 0.25rem;
+}
+
+.select-kit.combo-box .select-kit-filter .filter-icon {
+  transform: translate(-0.6rem, -0.25rem);
+  margin-left: 1rem;
+}
