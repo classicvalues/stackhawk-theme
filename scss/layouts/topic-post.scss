@@ -5,7 +5,10 @@ a.mention {
   font-weight: $font-weight-bold;
 }
 
-kbd {
+kbd,
+p > code,
+li > code,
+pre > code {
   background: var(--teal-100);
   border-radius: $radius-base;
   border: none;
