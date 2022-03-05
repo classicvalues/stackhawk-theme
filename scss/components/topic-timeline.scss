@@ -1,0 +1,27 @@
+.timeline-container .topic-timeline {
+  .timeline-scroller {
+    margin-left: -0.45em;
+  }
+  .timeline-handle {
+    background-color: var(--teal-400);
+    height: 12px;
+    width: 12px;
+  }
+
+  .timeline-scrollarea {
+    border-left: $border-width-base solid var(--gray-200);
+  }
+
+  .timeline-date-wrapper .d-label {
+    color: var(--gray-900);
+  }
+
+  .timeline-replies {
+    font-weight: $font-weight-normal;
+    color: var(--gray-900);
+  }
+
+  .timeline-ago {
+    color: var(--gray-900);
+  }
+}
