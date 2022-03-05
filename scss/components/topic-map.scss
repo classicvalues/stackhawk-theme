@@ -1,0 +1,73 @@
+.topic-map {
+  background: transparent;
+  border-top: 1px solid var(--primary-low);
+
+  .buttons .btn {
+    background: transparent;
+    border: none;
+    .d-icon {
+      color: var(--gray-700);
+      transform: scale(0.75);
+      align-self: flex-end;
+      padding-block: 0.7rem;
+    }
+
+    &:hover {
+      background: transparent;
+    }
+  }
+
+  .map li {
+    display: flex;
+    flex-direction: column;
+
+    h4 {
+      text-transform: capitalize;
+      font-weight: $font-weight-normal;
+      color: var(--gray-900);
+    }
+    .trigger-user-card {
+      display: none;
+    }
+
+    .relative-date {
+      color: var(--gray-900);
+      font-weight: $font-weight-bold;
+      font-size: var(--font-down-1);
+    }
+
+    .number {
+      order: 2;
+      font-size: var(--font-down-1);
+      color: var(--gray-900);
+      font-weight: $font-weight-bold;
+      margin-top: 0.65em;
+    }
+
+    .presenation {
+      order: 1;
+    }
+
+    &.views .number {
+      color: var(--teal-400);
+    }
+
+    &.avatars {
+      display: none;
+    }
+  }
+
+  section {
+    border-top: none;
+  }
+
+  h3 {
+    color: var(--gray-900);
+    font-weight: $font-weight-bold;
+  }
+
+  a.topic-link {
+    color: var(--teal-400);
+    text-decoration: underline;
+  }
+}

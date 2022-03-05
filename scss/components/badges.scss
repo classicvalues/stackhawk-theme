@@ -3,6 +3,10 @@
   background: var(--teal-100);
   color: var(--gray-500);
   border-radius: $radius-small;
+
+  &::before {
+    background: var(--gray-500);
+  }
 }
 
 .badge-wrapper.bullet .badge-category-parent-bg,

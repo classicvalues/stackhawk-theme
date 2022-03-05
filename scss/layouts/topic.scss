@@ -1,0 +1,15 @@
+.topic {
+  #topic-title h1 {
+    font-weight: $font-weight-bold;
+    margin-bottom: 0.5rem;
+  }
+
+  .topic-category .category-name {
+    color: var(--gray-900);
+    font-size: $font-size-p;
+  }
+
+  .title-wrapper {
+    margin-bottom: 1rem;
+  }
+}
