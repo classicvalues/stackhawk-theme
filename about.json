@@ -6,7 +6,8 @@
   "license_url": null,
   "assets": {
     "welcome_banner_artifact": "assets/welcome-banner-artifact.svg",
-    "icons-sprite": "assets/icons-sprite.svg"
+    "icons-sprite": "assets/icons-sprite.svg",
+    "clock": "assets/clock.svg"
   },
   "color_schemes": {
     "StackHawk": {
