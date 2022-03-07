@@ -7,7 +7,8 @@
 
   --indigo-400: #3d5afe;
   --indigo-500: #5e6ad2;
-
+  --indigo-200: #eae1fc;
+  --indigo-100: #f2edfd;
   --pink-400: #ff5090;
 
   --gray-100: #f8f7ff;
@@ -26,4 +27,6 @@
   --sh-primary: var(--teal-400);
   --sh-secondary: var(--gray-300);
   --sh-white: #f8f7ff;
+  --sh-solved: var(--indigo-100);
+  --sh-solved-dark: var(--indigo-200);
 }

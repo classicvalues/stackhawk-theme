@@ -1,0 +1,65 @@
+aside.accepted-answer {
+  border-radius: $radius-base;
+  border: 2px solid var(--sh-solved-dark);
+  background: var(--sh-solved);
+
+  .title,
+  blockquote {
+    background: var(--sh-solved);
+    border-left: none;
+  }
+
+  .title {
+    border-top-left-radius: $radius-base;
+    border-top-right-radius: $radius-base;
+
+    .d-icon-check-square {
+      display: none;
+    }
+
+    font-weight: $font-weight-bold;
+    color: var(--gray-900);
+
+    a {
+      color: var(--gray-900);
+      font-weight: $font-weight-normal;
+    }
+  }
+
+  blockquote {
+    color: var(--gray-500);
+    font-weight: $font-weight-normal;
+    border-bottom-right-radius: $radius-base;
+    border-bottom-left-radius: $radius-base;
+
+    .highlighted {
+      background: var(--sh-solved);
+    }
+  }
+
+  .d-icon-chevron-up,
+  .d-icon-chevron-down {
+    transform: scale(0.7) translateX(-5px);
+  }
+}
+
+.post-controls .extra-buttons {
+  .accepted {
+    background: var(--sh-solved);
+    border-radius: $radius-base;
+    border: $border-width-base solid var(--sh-solved-dark);
+    .d-button-label,
+    .d-icon {
+      color: var(--gray-900);
+      font-weight: $font-weight-normal;
+    }
+
+    .d-icon {
+      transform: scale(0.75) translateY(-3px);
+    }
+
+    &:hover {
+      background: var(--sh-solved-dark);
+    }
+  }
+}
