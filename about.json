@@ -7,7 +7,9 @@
   "assets": {
     "welcome_banner_artifact": "assets/welcome-banner-artifact.svg",
     "icons-sprite": "assets/icons-sprite.svg",
-    "clock": "assets/clock.svg"
+    "clock": "assets/clock.svg",
+    "speechBubble": "assets/speech-bubble.svg"
+
   },
   "color_schemes": {
     "StackHawk": {
@@ -24,6 +26,12 @@
     }
   },
   "components": [
-    "https://github.com/discourse/Discourse-easy-footer"
-  ]
+    "https://github.com/discourse/Discourse-easy-footer",
+    "https://github.com/discourse/discourse-category-banners"
+  ],
+  "modifiers": {
+    "svg_icons": [
+      "comment-lines"
+    ]
+  }
 }

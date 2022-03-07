@@ -1,4 +1,5 @@
 import { apiInitializer } from 'discourse/lib/api';
+import { h } from 'virtual-dom';
 
 export default apiInitializer('0.11.1', (api) => {
   // Replace Icons:
@@ -21,4 +22,13 @@ export default apiInitializer('0.11.1', (api) => {
   api.replaceIcon('shield-alt', 'sh-shield-alt');
   api.replaceIcon('thumbtack', 'sh-thumbtack');
   api.replaceIcon('user', 'sh-user');
+  api.replaceIcon('reply', 'sh-reply');
+
+  api.decorateWidget('category-header-widget:after', () => {
+    return h('img', {
+      attributes: {
+        src: settings.theme_uploads.welcome_banner_artifact,
+      },
+    });
+  });
 });

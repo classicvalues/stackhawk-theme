@@ -1,1 +1,8 @@
-//
+@mixin stackhawk-banner() {
+  background: var(--gray-900);
+  padding: 2.5rem;
+  color: var(--sh-white);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

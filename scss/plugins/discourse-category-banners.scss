@@ -1,0 +1,30 @@
+.discourse-category-banners {
+  background: var(--gray-900);
+  padding: 0.5rem 2.5rem;
+  color: var(--sh-white);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  img {
+    width: 300px;
+  }
+
+  .category-title-header {
+    background: transparent !important;
+    display: flex;
+    justify-content: flex-start;
+
+    .category-title-contents {
+      text-align: left;
+
+      .category-title {
+        justify-content: flex-start;
+        font-size: 2.6875em;
+      }
+      .category-title-description {
+        font-size: var(--font-up-3);
+      }
+    }
+  }
+}
