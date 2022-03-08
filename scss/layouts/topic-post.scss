@@ -23,3 +23,63 @@ pre > code.lang-nohighlight {
   color: var(--pink-400);
   font-family: $font-family-monospace;
 }
+
+aside.quote {
+  background: var(--gray-150);
+  border-radius: $radius-base;
+  border: 1px solid var(--gray-200);
+
+  .title,
+  blockquote {
+    border-left: none;
+    background: var(--gray-150);
+    background: transparent;
+  }
+
+  .title {
+    color: var(--gray-900);
+    font-weight: $font-weight-normal;
+    padding: 1rem;
+    img {
+      width: 35px;
+    }
+  }
+}
+
+.topic-post .topic-avatar {
+  border-top: none;
+}
+
+.topic-post:first-of-type .topic-body {
+  border-top: none;
+}
+
+.topic-body {
+  padding: 1rem;
+  border-top: 2px solid var(--gray-200);
+  &::before {
+    content: '';
+    display: block;
+    position: absolute;
+    left: -1.5rem;
+    height: 90%;
+    width: 2px;
+    background: var(--gray-200);
+  }
+}
+
+.topic-status-info,
+.topic-timer-info {
+  border-top: none;
+}
+
+.small-action {
+  border-top: none;
+}
+
+.small-action .small-action-desc.timegap {
+  color: var(--gray-900);
+  text-transform: lowercase;
+  align-self: flex-start;
+  transform: translateX(-7%);
+}

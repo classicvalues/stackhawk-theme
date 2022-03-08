@@ -30,3 +30,16 @@
     transform: scale(0.75) translate(-0.25rem, -0.25rem);
   }
 }
+
+// composer link icon
+.d-editor-button-bar .btn .d-icon-link {
+  transform: scale(0.6) translateY(-0.25rem);
+}
+
+// topic-list caret
+.topic-list-header {
+  .d-icon-chevron-down,
+  .d-icon-chevron-up {
+    transform: scale(0.7) translateY(-0.25rem);
+  }
+}

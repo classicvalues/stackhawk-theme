@@ -25,7 +25,7 @@ export default apiInitializer('0.11.1', (api) => {
   api.replaceIcon('user', 'sh-user');
   api.replaceIcon('reply', 'sh-reply');
 
-  api.decorateWidget('category-header-widget:after', (helper) => {
+  api.decorateWidget('category-header-widget:after', () => {
     const router = getOwner(this).lookup('router:main');
     const route = router.currentRoute;
 
