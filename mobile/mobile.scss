@@ -11,7 +11,26 @@
 // Components
 
 // Layouts
+@import 'layouts/mobile/category-boxes';
 
 // Pages
 
 // Theme Components & Plugins
+
+// TODO: move to respective partials:
+
+.welcome-banner {
+  .welcome-banner-image {
+    display: none;
+    @media screen and (min-width: $medium) {
+      display: block;
+    }
+  }
+
+  .welcome-banner-content p {
+    display: none;
+    @media screen and (min-width: $x-large) {
+      display: block;
+    }
+  }
+}
