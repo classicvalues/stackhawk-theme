@@ -16,3 +16,10 @@
   position: relative;
   margin-bottom: 2rem;
 }
+
+.alert.alert-info {
+  background: var(--teal-100);
+  border: 2px solid var(--teal-300);
+  border-radius: 2px;
+  color: var(--gray-600);
+}
