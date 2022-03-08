@@ -17,14 +17,27 @@
 
     .category-title-contents {
       text-align: left;
+      color: var(--sh-white);
 
       .category-title {
         justify-content: flex-start;
         font-size: 2.6875em;
+
+        .d-icon-lock {
+          display: none;
+        }
       }
       .category-title-description {
         font-size: var(--font-up-3);
       }
     }
   }
+}
+
+.archetype-regular .discourse-category-banners {
+  background-color: transparent;
+}
+
+.category-heading {
+  display: none;
 }

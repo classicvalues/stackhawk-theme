@@ -1,3 +1,4 @@
+import { getOwner } from 'discourse-common/lib/get-owner';
 import { apiInitializer } from 'discourse/lib/api';
 import { h } from 'virtual-dom';
 
@@ -24,11 +25,16 @@ export default apiInitializer('0.11.1', (api) => {
   api.replaceIcon('user', 'sh-user');
   api.replaceIcon('reply', 'sh-reply');
 
-  api.decorateWidget('category-header-widget:after', () => {
-    return h('img', {
-      attributes: {
-        src: settings.theme_uploads.welcome_banner_artifact,
-      },
-    });
+  api.decorateWidget('category-header-widget:after', (helper) => {
+    const router = getOwner(this).lookup('router:main');
+    const route = router.currentRoute;
+
+    if (route.name === 'discovery.category') {
+      return h('img', {
+        attributes: {
+          src: settings.theme_uploads.welcome_banner_artifact,
+        },
+      });
+    }
   });
 });

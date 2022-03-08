@@ -13,3 +13,18 @@
     margin-bottom: 1rem;
   }
 }
+
+.suggested-topics-message {
+  a,
+  .badge-wrapper.bullet .category-name {
+    color: var(--teal-400);
+    font-size: $font-size-p;
+    border-bottom: 1px solid var(--teal-400);
+    transition: color 0.25s ease, border 0.25s ease;
+
+    &:hover {
+      color: var(--teal-350);
+      border-color: var(--teal-350);
+    }
+  }
+}
