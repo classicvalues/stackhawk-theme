@@ -83,3 +83,12 @@ aside.quote {
   align-self: flex-start;
   transform: translateX(-7%);
 }
+
+.cooked a {
+  border-bottom: $border-width-base solid var(--teal-400);
+  transition: border-color 0.25s ease;
+
+  &:hover {
+    border-color: var(--header_background);
+  }
+}
