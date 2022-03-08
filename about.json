@@ -27,7 +27,8 @@
   },
   "components": [
     "https://github.com/discourse/Discourse-easy-footer",
-    "https://github.com/discourse/discourse-category-banners"
+    "https://github.com/discourse/discourse-category-banners",
+    "https://github.com/discourse/discourse-topic-excerpts"
   ],
   "modifiers": {
     "svg_icons": [

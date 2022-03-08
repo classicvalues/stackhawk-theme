@@ -1,0 +1,51 @@
+.topic-list {
+  .topic-list-item,
+  tr {
+    border-bottom: 1px solid var(--gray-200);
+  }
+
+  .main-link a.title {
+    color: var(--gray-800);
+    font-weight: $font-weight-bold;
+  }
+
+  .pull-right {
+    display: none;
+  }
+
+  .topic-item-stats {
+    display: none;
+  }
+}
+
+@media screen and (min-width: $medium) {
+  .topic-list {
+    .topic-list-data {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      max-width: unset;
+      padding-block: 1rem;
+
+      .right {
+        order: 1;
+        margin-left: 0;
+        margin-right: auto;
+        width: 100%;
+      }
+
+      .pull-left {
+        margin-left: auto;
+        order: 2;
+      }
+    }
+
+    .topic-excerpt {
+      display: none;
+    }
+
+    .pinned .topic-excerpt {
+      display: block;
+    }
+  }
+}

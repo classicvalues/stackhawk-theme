@@ -1,0 +1,13 @@
+.category-header .discourse-category-banners {
+  padding: 1rem;
+  img {
+    display: none;
+    @media screen and (min-width: $medium) {
+      display: block;
+    }
+  }
+
+  .category-title-header {
+    width: unset;
+  }
+}

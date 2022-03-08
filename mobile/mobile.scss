@@ -9,28 +9,15 @@
 @import 'base/icons';
 
 // Components
+@import 'components/mobile/input-fields';
 
 // Layouts
 @import 'layouts/mobile/category-boxes';
+@import 'layouts/mobile/topic';
+@import 'layouts/mobile/topic-list';
+@import 'layouts/mobile/welcome-banner';
 
 // Pages
 
 // Theme Components & Plugins
-
-// TODO: move to respective partials:
-
-.welcome-banner {
-  .welcome-banner-image {
-    display: none;
-    @media screen and (min-width: $medium) {
-      display: block;
-    }
-  }
-
-  .welcome-banner-content p {
-    display: none;
-    @media screen and (min-width: $x-large) {
-      display: block;
-    }
-  }
-}
+@import 'plugins/mobile/discourse-category-banners';
