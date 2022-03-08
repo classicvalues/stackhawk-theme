@@ -1,0 +1,23 @@
+.full-page-search {
+  .search-container {
+    .search-header,
+    .search-filters,
+    .search-advanced-filters {
+      background: transparent;
+    }
+
+    .advanced-filters summary:first-child {
+      font-weight: $font-weight-bold;
+    }
+
+    .search-advanced-additional-options summary {
+      color: var(--teal-400);
+      font-weight: $font-weight-normal;
+      text-decoration: underline;
+
+      &::before {
+        text-decoration: none !important;
+      }
+    }
+  }
+}

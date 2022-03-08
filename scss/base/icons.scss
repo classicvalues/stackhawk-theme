@@ -15,3 +15,18 @@
   transform: translate(-0.6rem, -0.25rem);
   margin-left: 1rem;
 }
+
+// d-header search and hamburger icons:
+.drop-down-mode .d-header-icons .icon .d-icon {
+  &.d-icon-bars,
+  &.d-icon-search {
+    transform: translateX(0.35rem);
+  }
+}
+
+// search page search button icon
+.full-page-search {
+  .search-cta .d-icon {
+    transform: scale(0.75) translate(-0.25rem, -0.25rem);
+  }
+}

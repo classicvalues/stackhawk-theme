@@ -17,3 +17,9 @@ pre > code {
   font-weight: $font-weight-normal;
   padding: 0.5em 1rem;
 }
+
+pre > code.lang-nohighlight {
+  background: none;
+  color: var(--pink-400);
+  font-family: $font-family-monospace;
+}

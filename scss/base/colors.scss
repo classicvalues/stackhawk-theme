@@ -30,4 +30,8 @@
   --sh-white: #f8f7ff;
   --sh-solved: var(--indigo-100);
   --sh-solved-dark: var(--indigo-200);
+
+  // OVERRIDES:
+  --tertiary-med-or-tertiary: var(--teal-400);
+  --highlight-medium: var(--teal-300);
 }
