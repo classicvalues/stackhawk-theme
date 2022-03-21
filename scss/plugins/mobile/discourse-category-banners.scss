@@ -1,5 +1,6 @@
 .category-header .discourse-category-banners {
   padding: 1rem;
+  font-size: var(--font-down-2);
   img {
     display: none;
     @media screen and (min-width: $medium) {

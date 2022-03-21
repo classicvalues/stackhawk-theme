@@ -1,4 +1,5 @@
 .welcome-banner {
+  font-size: var(--font-down-2);
   .welcome-banner-image {
     display: none;
     @media screen and (min-width: $medium) {
