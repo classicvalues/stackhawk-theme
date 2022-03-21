@@ -9,6 +9,17 @@
 
     img {
       width: 300px;
+      @media screen and (max-width: 745px) {
+        width: 200px;
+      }
+
+      @media screen and (max-width: 600px) {
+        width: 150px;
+      }
+
+      @media screen and (max-width: 500px) {
+        display: none;
+      }
     }
 
     .category-title-header {
