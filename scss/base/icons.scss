@@ -43,3 +43,13 @@
     transform: scale(0.7) translateY(-0.25rem);
   }
 }
+
+// composer collapse icon
+#reply-control .reply-to .composer-controls .d-icon-chevron-down {
+  transform: scale(0.8) translate(-3px, -2px);
+}
+
+// search box icon
+.search-link .d-icon-search {
+  transform: scale(0.7) translate(-0.5rem, -0.3rem);
+}

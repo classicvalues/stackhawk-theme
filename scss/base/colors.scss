@@ -14,6 +14,7 @@
 
   --gray-100: #f8f7ff;
   --gray-150: #eff1f4;
+  --gray-180: #f2f3f4;
   --gray-200: #e4e3ec;
   --gray-300: #8999af;
   --gray-400: #5c6679;
@@ -33,5 +34,5 @@
 
   // OVERRIDES:
   --tertiary-med-or-tertiary: var(--teal-400);
-  --highlight-medium: var(--teal-300);
+  --highlight-medium: var(--gray-180);
 }

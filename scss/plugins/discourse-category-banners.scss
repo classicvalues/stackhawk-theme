@@ -19,6 +19,7 @@
       .category-title-contents {
         text-align: left;
         color: var(--sh-white);
+        padding: 0;
 
         .category-title {
           justify-content: flex-start;
@@ -38,4 +39,11 @@
 
 .category-heading {
   display: none;
+}
+
+div[class^='category-title-header'] {
+  width: unset;
+  .category-title-contents {
+    max-width: unset;
+  }
 }

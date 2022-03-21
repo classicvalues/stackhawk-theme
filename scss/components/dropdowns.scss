@@ -20,3 +20,18 @@
 .select-kit.multi-select .select-kit-filter + .select-kit-collection {
   border-top: none;
 }
+
+.select-kit.single-select .select-kit-filter.is-expanded {
+  border-bottom: none;
+  .d-icon-search {
+    display: none;
+  }
+}
+
+.select-kit .select-kit-row.is-highlighted {
+  background: var(--gray-180);
+}
+
+.select-kit .select-kit-collection:hover .select-kit-row.is-highlighted:hover {
+  background: var(--gray-180);
+}

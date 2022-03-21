@@ -1,8 +1,8 @@
 .d-header {
   box-shadow: none;
   border-bottom: 2px solid #eff1f4;
-
   .wrap {
+    margin-inline: 24px;
     max-width: none;
   }
 
@@ -25,10 +25,25 @@
     color: var(--gray-700);
     transition: color 0.25s ease;
   }
+
+  .icon {
+    border: none !important;
+    border: 1px solid var(--header-background) !important;
+  }
 }
 
 .discourse-no-touch .d-header-icons .icon:hover,
 .discourse-no-touch .d-header-icons .icon:focus {
   background-color: transparent;
   color: var(--gray-600);
+}
+
+// border-around-icons
+.drop-down-mode .d-header-icons .active .icon {
+  border: 1px solid var(--header-background) !important;
+}
+
+.menu-panel.drop-down {
+  z-index: 999;
+  margin-top: 2px;
 }
