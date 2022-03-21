@@ -1,0 +1,11 @@
+aside.onebox {
+  border-width: $border-width-base;
+
+  header a {
+    border-bottom: none;
+  }
+
+  .onebox-body {
+    margin-left: 1.6rem;
+  }
+}
