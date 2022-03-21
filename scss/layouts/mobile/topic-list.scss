@@ -4,6 +4,11 @@
     border-bottom: 1px solid var(--gray-200);
   }
 
+  .topic-list-item {
+    padding-block: 1rem;
+    display: block;
+  }
+
   .main-link a.title {
     color: var(--gray-800);
     font-weight: $font-weight-bold;
