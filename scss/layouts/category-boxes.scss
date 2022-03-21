@@ -58,6 +58,7 @@
           .description {
             width: 100%;
             font-size: var(--font-down-1);
+            margin-bottom: 0;
           }
         }
 
@@ -66,6 +67,7 @@
           --height: 70px;
           width: auto;
           max-width: unset;
+          margin-bottom: 0;
         }
       }
     }
