@@ -34,7 +34,7 @@
   }
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 500px) {
   .category-boxes {
     .category-box {
       border-radius: 11px;
@@ -64,6 +64,7 @@
         .category-logo .logo.aspect-image img,
         .logo.aspect-image img {
           --height: 80px;
+          width: auto;
         }
       }
     }
