@@ -63,8 +63,9 @@
 
         .category-logo .logo.aspect-image img,
         .logo.aspect-image img {
-          --height: 80px;
+          --height: 70px;
           width: auto;
+          max-width: unset;
         }
       }
     }
