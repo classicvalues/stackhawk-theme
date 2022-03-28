@@ -1,4 +1,7 @@
 .topic-list {
+  .topic-list-data {
+    max-width: unset;
+  }
   .topic-list-item,
   tr {
     border-bottom: 1px solid var(--gray-200);
@@ -29,7 +32,6 @@
       display: flex;
       align-items: center;
       justify-content: space-between;
-      max-width: unset;
       padding-block: 1rem;
 
       .right {
