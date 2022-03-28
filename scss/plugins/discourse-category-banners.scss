@@ -1,11 +1,17 @@
-.category-header {
+.category-header-widget {
   .discourse-category-banners {
     background: var(--gray-900);
     padding: 0.5rem 2.5rem;
     color: var(--sh-white);
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
+    padding-left: var(--outlet-left-offset);
+    // // justify-content: flex-start;
+    // // padding-left: calc(20);
+    // // padding-left: calc(100vw - 93%);
+    // padding-left: 14%;
+    // padding-right: auto;
 
     img {
       width: 300px;
@@ -26,7 +32,7 @@
       background: transparent !important;
       display: flex;
       justify-content: flex-start;
-
+      padding-left: 1rem;
       .category-title-contents {
         text-align: left;
         color: var(--sh-white);

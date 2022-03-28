@@ -37,4 +37,15 @@ export default apiInitializer('0.11.1', (api) => {
       });
     }
   });
+
+  api.onPageChange(() => {
+    const outlet = document.querySelector('#main-outlet');
+    const root = document.documentElement;
+
+    root.style.setProperty('--outlet-left-offset', `${outlet.offsetLeft}px`);
+
+    window.onresize = () => {
+      root.style.setProperty('--outlet-left-offset', `${outlet.offsetLeft}px`);
+    };
+  });
 });
